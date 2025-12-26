@@ -1,0 +1,1026 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EF118F3E63EE0A49E67A2D9 /* Pods_SQLite_test_SQLite_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF48510F247227B5430E8B0 /* Pods_SQLite_test_SQLite_testUITests.framework */; };
+		6DFB4ACB8C26EE6D6D350352 /* Pods_SQLite_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 470725BACC6E0F3518DCC4AC /* Pods_SQLite_test.framework */; };
+		7FAECCAF8211F2F5B380FE50 /* Pods_SQLite_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E8B7257A4EC7DD15BB2EA9 /* Pods_SQLite_testTests.framework */; };
+		CF35AAD52CD4B77100EF1647 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35AAD42CD4B77100EF1647 /* NoteViewController.swift */; };
+		CF35AAD82CD4C1D900EF1647 /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35AAD72CD4C1D900EF1647 /* NoteTableViewCell.swift */; };
+		CF35AADB2CD9A94F00EF1647 /* NoteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35AADA2CD9A94F00EF1647 /* NoteDB.swift */; };
+		CF35AADD2CD9A97000EF1647 /* NoteInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35AADC2CD9A97000EF1647 /* NoteInfo.swift */; };
+		CF35AADF2CD9B65800EF1647 /* LevelStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35AADE2CD9B65800EF1647 /* LevelStarView.swift */; };
+		CF35AAE22CD9C51A00EF1647 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35AAE12CD9C51A00EF1647 /* NoteViewModel.swift */; };
+		CF35AAE52CD9CC8800EF1647 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35AAE42CD9CC8800EF1647 /* AddNoteViewController.swift */; };
+		CF35AAE82CDB3AF200EF1647 /* AddFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35AAE72CDB3AF200EF1647 /* AddFoodViewController.swift */; };
+		CF35AAEB2CDB4A7200EF1647 /* AddNoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35AAEA2CDB4A7200EF1647 /* AddNoteViewModel.swift */; };
+		CF35AAEE2CDB642100EF1647 /* DetailNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35AAED2CDB642100EF1647 /* DetailNoteViewController.swift */; };
+		CF35AAF12CDDC22600EF1647 /* DetailNoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35AAF02CDDC22600EF1647 /* DetailNoteViewModel.swift */; };
+		CF7CF3F92CB4D633002E9D2B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7CF3F82CB4D633002E9D2B /* Extension.swift */; };
+		CF7CF3FE2CB62396002E9D2B /* GenericDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7CF3FD2CB62396002E9D2B /* GenericDB.swift */; };
+		CF966A3A2CAAAD2300BF83E1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF966A392CAAAD2300BF83E1 /* DetailViewController.swift */; };
+		CF966A3D2CAB92F900BF83E1 /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF966A3C2CAB92F900BF83E1 /* FavoriteViewModel.swift */; };
+		CF966A422CAB98AF00BF83E1 /* FavoriteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF966A412CAB98AF00BF83E1 /* FavoriteCollectionViewCell.swift */; };
+		CFB8F3402CA695F500CE29B9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB8F33F2CA695F500CE29B9 /* MainViewController.swift */; };
+		CFB8F3422CA6967900CE29B9 /* StatusBarColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB8F3412CA6967900CE29B9 /* StatusBarColor.swift */; };
+		CFB8F3442CA697C800CE29B9 /* NetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB8F3432CA697C800CE29B9 /* NetWork.swift */; };
+		CFB8F3462CA6983200CE29B9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB8F3452CA6983200CE29B9 /* MenuViewController.swift */; };
+		CFB8F34B2CA6987300CE29B9 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB8F34A2CA6987300CE29B9 /* MenuViewModel.swift */; };
+		CFB8F34F2CA69BE000CE29B9 /* LocalFoodInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB8F34E2CA69BE000CE29B9 /* LocalFoodInfo.swift */; };
+		CFB8F3522CA6A50200CE29B9 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB8F3512CA6A50200CE29B9 /* FavoriteViewController.swift */; };
+		CFB8F3542CA6AB8800CE29B9 /* LocalFoodDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB8F3532CA6AB8800CE29B9 /* LocalFoodDB.swift */; };
+		CFB8F3572CAA76D000CE29B9 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB8F3562CAA76D000CE29B9 /* MenuTableViewCell.swift */; };
+		CFD0D8662CA10D53008C0064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0D8652CA10D53008C0064 /* AppDelegate.swift */; };
+		CFD0D8682CA10D53008C0064 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0D8672CA10D53008C0064 /* SceneDelegate.swift */; };
+		CFD0D86F2CA10D56008C0064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD0D86E2CA10D56008C0064 /* Assets.xcassets */; };
+		CFD0D8722CA10D56008C0064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD0D8702CA10D56008C0064 /* LaunchScreen.storyboard */; };
+		CFD0D87D2CA10D56008C0064 /* SQLite_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0D87C2CA10D56008C0064 /* SQLite_testTests.swift */; };
+		CFD0D8872CA10D56008C0064 /* SQLite_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0D8862CA10D56008C0064 /* SQLite_testUITests.swift */; };
+		CFD0D8892CA10D56008C0064 /* SQLite_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0D8882CA10D56008C0064 /* SQLite_testUITestsLaunchTests.swift */; };
+		CFD0D8982CA113C0008C0064 /* FoodDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0D8972CA113C0008C0064 /* FoodDB.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFD0D8792CA10D56008C0064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFD0D85A2CA10D53008C0064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFD0D8612CA10D53008C0064;
+			remoteInfo = SQLite_test;
+		};
+		CFD0D8832CA10D56008C0064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFD0D85A2CA10D53008C0064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFD0D8612CA10D53008C0064;
+			remoteInfo = SQLite_test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E8B7257A4EC7DD15BB2EA9 /* Pods_SQLite_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQLite_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		277C9166B0A06C456FC50949 /* Pods-SQLite_test-SQLite_testUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLite_test-SQLite_testUITests.release.xcconfig"; path = "Target Support Files/Pods-SQLite_test-SQLite_testUITests/Pods-SQLite_test-SQLite_testUITests.release.xcconfig"; sourceTree = "<group>"; };
+		28182EDA217616D5C55D28A2 /* Pods-SQLite_testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLite_testTests.release.xcconfig"; path = "Target Support Files/Pods-SQLite_testTests/Pods-SQLite_testTests.release.xcconfig"; sourceTree = "<group>"; };
+		470725BACC6E0F3518DCC4AC /* Pods_SQLite_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQLite_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE033D0BA62E77F4CF0CF79 /* Pods-SQLite_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLite_test.release.xcconfig"; path = "Target Support Files/Pods-SQLite_test/Pods-SQLite_test.release.xcconfig"; sourceTree = "<group>"; };
+		7C42A6C100C43F22B2BA93C7 /* Pods-SQLite_test-SQLite_testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLite_test-SQLite_testUITests.debug.xcconfig"; path = "Target Support Files/Pods-SQLite_test-SQLite_testUITests/Pods-SQLite_test-SQLite_testUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DAFC31E73AEE5AA364C8120 /* Pods-SQLite_testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLite_testTests.debug.xcconfig"; path = "Target Support Files/Pods-SQLite_testTests/Pods-SQLite_testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4974BE92B9C235AC7C6D264 /* Pods-SQLite_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLite_test.debug.xcconfig"; path = "Target Support Files/Pods-SQLite_test/Pods-SQLite_test.debug.xcconfig"; sourceTree = "<group>"; };
+		CF35AAD42CD4B77100EF1647 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		CF35AAD72CD4C1D900EF1647 /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		CF35AADA2CD9A94F00EF1647 /* NoteDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDB.swift; sourceTree = "<group>"; };
+		CF35AADC2CD9A97000EF1647 /* NoteInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteInfo.swift; sourceTree = "<group>"; };
+		CF35AADE2CD9B65800EF1647 /* LevelStarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelStarView.swift; sourceTree = "<group>"; };
+		CF35AAE12CD9C51A00EF1647 /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
+		CF35AAE42CD9CC8800EF1647 /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
+		CF35AAE72CDB3AF200EF1647 /* AddFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodViewController.swift; sourceTree = "<group>"; };
+		CF35AAEA2CDB4A7200EF1647 /* AddNoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewModel.swift; sourceTree = "<group>"; };
+		CF35AAED2CDB642100EF1647 /* DetailNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNoteViewController.swift; sourceTree = "<group>"; };
+		CF35AAF02CDDC22600EF1647 /* DetailNoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNoteViewModel.swift; sourceTree = "<group>"; };
+		CF7CF3F82CB4D633002E9D2B /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		CF7CF3FD2CB62396002E9D2B /* GenericDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDB.swift; sourceTree = "<group>"; };
+		CF966A392CAAAD2300BF83E1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CF966A3C2CAB92F900BF83E1 /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
+		CF966A412CAB98AF00BF83E1 /* FavoriteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCollectionViewCell.swift; sourceTree = "<group>"; };
+		CFB8F33F2CA695F500CE29B9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CFB8F3412CA6967900CE29B9 /* StatusBarColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarColor.swift; sourceTree = "<group>"; };
+		CFB8F3432CA697C800CE29B9 /* NetWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWork.swift; sourceTree = "<group>"; };
+		CFB8F3452CA6983200CE29B9 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		CFB8F34A2CA6987300CE29B9 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		CFB8F34E2CA69BE000CE29B9 /* LocalFoodInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFoodInfo.swift; sourceTree = "<group>"; };
+		CFB8F3512CA6A50200CE29B9 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		CFB8F3532CA6AB8800CE29B9 /* LocalFoodDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFoodDB.swift; sourceTree = "<group>"; };
+		CFB8F3562CAA76D000CE29B9 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		CFD0D8622CA10D53008C0064 /* SQLite_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLite_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD0D8652CA10D53008C0064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFD0D8672CA10D53008C0064 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CFD0D86E2CA10D56008C0064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFD0D8712CA10D56008C0064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFD0D8732CA10D56008C0064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFD0D8782CA10D56008C0064 /* SQLite_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLite_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD0D87C2CA10D56008C0064 /* SQLite_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLite_testTests.swift; sourceTree = "<group>"; };
+		CFD0D8822CA10D56008C0064 /* SQLite_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLite_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD0D8862CA10D56008C0064 /* SQLite_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLite_testUITests.swift; sourceTree = "<group>"; };
+		CFD0D8882CA10D56008C0064 /* SQLite_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLite_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFD0D8972CA113C0008C0064 /* FoodDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDB.swift; sourceTree = "<group>"; };
+		DBF48510F247227B5430E8B0 /* Pods_SQLite_test_SQLite_testUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQLite_test_SQLite_testUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFD0D85F2CA10D53008C0064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DFB4ACB8C26EE6D6D350352 /* Pods_SQLite_test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD0D8752CA10D56008C0064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAECCAF8211F2F5B380FE50 /* Pods_SQLite_testTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD0D87F2CA10D56008C0064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF118F3E63EE0A49E67A2D9 /* Pods_SQLite_test_SQLite_testUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F53D0A29470793C911B32A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				470725BACC6E0F3518DCC4AC /* Pods_SQLite_test.framework */,
+				DBF48510F247227B5430E8B0 /* Pods_SQLite_test_SQLite_testUITests.framework */,
+				01E8B7257A4EC7DD15BB2EA9 /* Pods_SQLite_testTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87E2593BF1010DD9F7F318BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4974BE92B9C235AC7C6D264 /* Pods-SQLite_test.debug.xcconfig */,
+				4AE033D0BA62E77F4CF0CF79 /* Pods-SQLite_test.release.xcconfig */,
+				7C42A6C100C43F22B2BA93C7 /* Pods-SQLite_test-SQLite_testUITests.debug.xcconfig */,
+				277C9166B0A06C456FC50949 /* Pods-SQLite_test-SQLite_testUITests.release.xcconfig */,
+				7DAFC31E73AEE5AA364C8120 /* Pods-SQLite_testTests.debug.xcconfig */,
+				28182EDA217616D5C55D28A2 /* Pods-SQLite_testTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CF35AAD32CD4B75A00EF1647 /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				CF35AAEC2CDB640300EF1647 /* Detail */,
+				CF35AAE32CD9CC6900EF1647 /* AddNote */,
+				CF35AAE02CD9C50200EF1647 /* ViewModel */,
+				CF35AAD62CD4C1A800EF1647 /* Cell */,
+				CF35AAD42CD4B77100EF1647 /* NoteViewController.swift */,
+				CF35AADE2CD9B65800EF1647 /* LevelStarView.swift */,
+			);
+			path = Note;
+			sourceTree = "<group>";
+		};
+		CF35AAD62CD4C1A800EF1647 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CF35AAD72CD4C1D900EF1647 /* NoteTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CF35AAD92CD4CAF500EF1647 /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				CF35AADA2CD9A94F00EF1647 /* NoteDB.swift */,
+			);
+			path = Note;
+			sourceTree = "<group>";
+		};
+		CF35AAE02CD9C50200EF1647 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF35AAE12CD9C51A00EF1647 /* NoteViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CF35AAE32CD9CC6900EF1647 /* AddNote */ = {
+			isa = PBXGroup;
+			children = (
+				CF35AAE92CDB4A5900EF1647 /* ViewModel */,
+				CF35AAE62CDB3ADD00EF1647 /* AddFood */,
+				CF35AAE42CD9CC8800EF1647 /* AddNoteViewController.swift */,
+			);
+			path = AddNote;
+			sourceTree = "<group>";
+		};
+		CF35AAE62CDB3ADD00EF1647 /* AddFood */ = {
+			isa = PBXGroup;
+			children = (
+				CF35AAE72CDB3AF200EF1647 /* AddFoodViewController.swift */,
+			);
+			path = AddFood;
+			sourceTree = "<group>";
+		};
+		CF35AAE92CDB4A5900EF1647 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF35AAEA2CDB4A7200EF1647 /* AddNoteViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CF35AAEC2CDB640300EF1647 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				CF35AAEF2CDDC20A00EF1647 /* ViewModel */,
+				CF35AAED2CDB642100EF1647 /* DetailNoteViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		CF35AAEF2CDDC20A00EF1647 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF35AAF02CDDC22600EF1647 /* DetailNoteViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CF7CF3FC2CB62383002E9D2B /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				CF35AAD92CD4CAF500EF1647 /* Note */,
+				CF7CF3FF2CB665C6002E9D2B /* Food */,
+				CF7CF3FD2CB62396002E9D2B /* GenericDB.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		CF7CF3FF2CB665C6002E9D2B /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				CFD0D8972CA113C0008C0064 /* FoodDB.swift */,
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		CF7CF4002CB665EB002E9D2B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CFB8F33F2CA695F500CE29B9 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CF966A382CAAAD0B00BF83E1 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				CF966A392CAAAD2300BF83E1 /* DetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		CF966A3B2CAB92DD00BF83E1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF966A3C2CAB92F900BF83E1 /* FavoriteViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CF966A3E2CAB987200BF83E1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CF966A412CAB98AF00BF83E1 /* FavoriteCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CFB8F3472CA6983F00CE29B9 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				CF35AAD32CD4B75A00EF1647 /* Note */,
+				CF7CF4002CB665EB002E9D2B /* Main */,
+				CF966A382CAAAD0B00BF83E1 /* Detail */,
+				CFB8F3502CA6A4D800CE29B9 /* Favorite */,
+				CFB8F3482CA6985200CE29B9 /* Menu */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		CFB8F3482CA6985200CE29B9 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				CFB8F3552CAA76B700CE29B9 /* Cell */,
+				CFB8F3492CA6986000CE29B9 /* ViewModel */,
+				CFB8F3452CA6983200CE29B9 /* MenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		CFB8F3492CA6986000CE29B9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CFB8F34A2CA6987300CE29B9 /* MenuViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CFB8F34D2CA69BBA00CE29B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFB8F34E2CA69BE000CE29B9 /* LocalFoodInfo.swift */,
+				CFB8F3532CA6AB8800CE29B9 /* LocalFoodDB.swift */,
+				CF35AADC2CD9A97000EF1647 /* NoteInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CFB8F3502CA6A4D800CE29B9 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				CF966A3E2CAB987200BF83E1 /* Cell */,
+				CF966A3B2CAB92DD00BF83E1 /* ViewModel */,
+				CFB8F3512CA6A50200CE29B9 /* FavoriteViewController.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		CFB8F3552CAA76B700CE29B9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CFB8F3562CAA76D000CE29B9 /* MenuTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CFD0D8592CA10D53008C0064 = {
+			isa = PBXGroup;
+			children = (
+				CFD0D8642CA10D53008C0064 /* SQLite_test */,
+				CFD0D87B2CA10D56008C0064 /* SQLite_testTests */,
+				CFD0D8852CA10D56008C0064 /* SQLite_testUITests */,
+				CFD0D8632CA10D53008C0064 /* Products */,
+				87E2593BF1010DD9F7F318BB /* Pods */,
+				7F53D0A29470793C911B32A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CFD0D8632CA10D53008C0064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFD0D8622CA10D53008C0064 /* SQLite_test.app */,
+				CFD0D8782CA10D56008C0064 /* SQLite_testTests.xctest */,
+				CFD0D8822CA10D56008C0064 /* SQLite_testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFD0D8642CA10D53008C0064 /* SQLite_test */ = {
+			isa = PBXGroup;
+			children = (
+				CF7CF3FC2CB62383002E9D2B /* DB */,
+				CFB8F34D2CA69BBA00CE29B9 /* Model */,
+				CFB8F3472CA6983F00CE29B9 /* Scene */,
+				CFD0D8652CA10D53008C0064 /* AppDelegate.swift */,
+				CFD0D8672CA10D53008C0064 /* SceneDelegate.swift */,
+				CFD0D86E2CA10D56008C0064 /* Assets.xcassets */,
+				CFD0D8702CA10D56008C0064 /* LaunchScreen.storyboard */,
+				CFD0D8732CA10D56008C0064 /* Info.plist */,
+				CFB8F3412CA6967900CE29B9 /* StatusBarColor.swift */,
+				CFB8F3432CA697C800CE29B9 /* NetWork.swift */,
+				CF7CF3F82CB4D633002E9D2B /* Extension.swift */,
+			);
+			path = SQLite_test;
+			sourceTree = "<group>";
+		};
+		CFD0D87B2CA10D56008C0064 /* SQLite_testTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFD0D87C2CA10D56008C0064 /* SQLite_testTests.swift */,
+			);
+			path = SQLite_testTests;
+			sourceTree = "<group>";
+		};
+		CFD0D8852CA10D56008C0064 /* SQLite_testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFD0D8862CA10D56008C0064 /* SQLite_testUITests.swift */,
+				CFD0D8882CA10D56008C0064 /* SQLite_testUITestsLaunchTests.swift */,
+			);
+			path = SQLite_testUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFD0D8612CA10D53008C0064 /* SQLite_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD0D88C2CA10D56008C0064 /* Build configuration list for PBXNativeTarget "SQLite_test" */;
+			buildPhases = (
+				DC4ACEAA497C31B220595253 /* [CP] Check Pods Manifest.lock */,
+				CFD0D85E2CA10D53008C0064 /* Sources */,
+				CFD0D85F2CA10D53008C0064 /* Frameworks */,
+				CFD0D8602CA10D53008C0064 /* Resources */,
+				B6EC2A0E13AF0EC779970C6F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLite_test;
+			productName = SQLite_test;
+			productReference = CFD0D8622CA10D53008C0064 /* SQLite_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFD0D8772CA10D56008C0064 /* SQLite_testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD0D88F2CA10D56008C0064 /* Build configuration list for PBXNativeTarget "SQLite_testTests" */;
+			buildPhases = (
+				4A884B5B59E967E0599B863A /* [CP] Check Pods Manifest.lock */,
+				CFD0D8742CA10D56008C0064 /* Sources */,
+				CFD0D8752CA10D56008C0064 /* Frameworks */,
+				CFD0D8762CA10D56008C0064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFD0D87A2CA10D56008C0064 /* PBXTargetDependency */,
+			);
+			name = SQLite_testTests;
+			productName = SQLite_testTests;
+			productReference = CFD0D8782CA10D56008C0064 /* SQLite_testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFD0D8812CA10D56008C0064 /* SQLite_testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD0D8922CA10D56008C0064 /* Build configuration list for PBXNativeTarget "SQLite_testUITests" */;
+			buildPhases = (
+				65721BD8A019658FCB714510 /* [CP] Check Pods Manifest.lock */,
+				CFD0D87E2CA10D56008C0064 /* Sources */,
+				CFD0D87F2CA10D56008C0064 /* Frameworks */,
+				CFD0D8802CA10D56008C0064 /* Resources */,
+				93A8CD2BF33BCF3C07744828 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFD0D8842CA10D56008C0064 /* PBXTargetDependency */,
+			);
+			name = SQLite_testUITests;
+			productName = SQLite_testUITests;
+			productReference = CFD0D8822CA10D56008C0064 /* SQLite_testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFD0D85A2CA10D53008C0064 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CFD0D8612CA10D53008C0064 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CFD0D8772CA10D56008C0064 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CFD0D8612CA10D53008C0064;
+					};
+					CFD0D8812CA10D56008C0064 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CFD0D8612CA10D53008C0064;
+					};
+				};
+			};
+			buildConfigurationList = CFD0D85D2CA10D53008C0064 /* Build configuration list for PBXProject "SQLite_test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFD0D8592CA10D53008C0064;
+			productRefGroup = CFD0D8632CA10D53008C0064 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFD0D8612CA10D53008C0064 /* SQLite_test */,
+				CFD0D8772CA10D56008C0064 /* SQLite_testTests */,
+				CFD0D8812CA10D56008C0064 /* SQLite_testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFD0D8602CA10D53008C0064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD0D8722CA10D56008C0064 /* LaunchScreen.storyboard in Resources */,
+				CFD0D86F2CA10D56008C0064 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD0D8762CA10D56008C0064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD0D8802CA10D56008C0064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A884B5B59E967E0599B863A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQLite_testTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65721BD8A019658FCB714510 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQLite_test-SQLite_testUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93A8CD2BF33BCF3C07744828 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLite_test-SQLite_testUITests/Pods-SQLite_test-SQLite_testUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLite_test-SQLite_testUITests/Pods-SQLite_test-SQLite_testUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SQLite_test-SQLite_testUITests/Pods-SQLite_test-SQLite_testUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6EC2A0E13AF0EC779970C6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLite_test/Pods-SQLite_test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLite_test/Pods-SQLite_test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SQLite_test/Pods-SQLite_test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC4ACEAA497C31B220595253 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQLite_test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFD0D85E2CA10D53008C0064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF35AAE82CDB3AF200EF1647 /* AddFoodViewController.swift in Sources */,
+				CFB8F3402CA695F500CE29B9 /* MainViewController.swift in Sources */,
+				CF7CF3FE2CB62396002E9D2B /* GenericDB.swift in Sources */,
+				CFB8F3462CA6983200CE29B9 /* MenuViewController.swift in Sources */,
+				CF7CF3F92CB4D633002E9D2B /* Extension.swift in Sources */,
+				CF35AAD52CD4B77100EF1647 /* NoteViewController.swift in Sources */,
+				CF35AAEB2CDB4A7200EF1647 /* AddNoteViewModel.swift in Sources */,
+				CFD0D8982CA113C0008C0064 /* FoodDB.swift in Sources */,
+				CFB8F34F2CA69BE000CE29B9 /* LocalFoodInfo.swift in Sources */,
+				CF35AADB2CD9A94F00EF1647 /* NoteDB.swift in Sources */,
+				CF35AAD82CD4C1D900EF1647 /* NoteTableViewCell.swift in Sources */,
+				CF966A422CAB98AF00BF83E1 /* FavoriteCollectionViewCell.swift in Sources */,
+				CFB8F34B2CA6987300CE29B9 /* MenuViewModel.swift in Sources */,
+				CF35AADD2CD9A97000EF1647 /* NoteInfo.swift in Sources */,
+				CF966A3A2CAAAD2300BF83E1 /* DetailViewController.swift in Sources */,
+				CFD0D8662CA10D53008C0064 /* AppDelegate.swift in Sources */,
+				CFB8F3522CA6A50200CE29B9 /* FavoriteViewController.swift in Sources */,
+				CF35AADF2CD9B65800EF1647 /* LevelStarView.swift in Sources */,
+				CFD0D8682CA10D53008C0064 /* SceneDelegate.swift in Sources */,
+				CFB8F3422CA6967900CE29B9 /* StatusBarColor.swift in Sources */,
+				CF35AAEE2CDB642100EF1647 /* DetailNoteViewController.swift in Sources */,
+				CF35AAF12CDDC22600EF1647 /* DetailNoteViewModel.swift in Sources */,
+				CF35AAE22CD9C51A00EF1647 /* NoteViewModel.swift in Sources */,
+				CF966A3D2CAB92F900BF83E1 /* FavoriteViewModel.swift in Sources */,
+				CF35AAE52CD9CC8800EF1647 /* AddNoteViewController.swift in Sources */,
+				CFB8F3442CA697C800CE29B9 /* NetWork.swift in Sources */,
+				CFB8F3542CA6AB8800CE29B9 /* LocalFoodDB.swift in Sources */,
+				CFB8F3572CAA76D000CE29B9 /* MenuTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD0D8742CA10D56008C0064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD0D87D2CA10D56008C0064 /* SQLite_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD0D87E2CA10D56008C0064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD0D8892CA10D56008C0064 /* SQLite_testUITestsLaunchTests.swift in Sources */,
+				CFD0D8872CA10D56008C0064 /* SQLite_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFD0D87A2CA10D56008C0064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFD0D8612CA10D53008C0064 /* SQLite_test */;
+			targetProxy = CFD0D8792CA10D56008C0064 /* PBXContainerItemProxy */;
+		};
+		CFD0D8842CA10D56008C0064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFD0D8612CA10D53008C0064 /* SQLite_test */;
+			targetProxy = CFD0D8832CA10D56008C0064 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFD0D8702CA10D56008C0064 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD0D8712CA10D56008C0064 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFD0D88A2CA10D56008C0064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFD0D88B2CA10D56008C0064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFD0D88D2CA10D56008C0064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4974BE92B9C235AC7C6D264 /* Pods-SQLite_test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 652N6JXR6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SQLite_test/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.franktsai88.SQLite-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFD0D88E2CA10D56008C0064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AE033D0BA62E77F4CF0CF79 /* Pods-SQLite_test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 652N6JXR6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SQLite_test/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.franktsai88.SQLite-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFD0D8902CA10D56008C0064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DAFC31E73AEE5AA364C8120 /* Pods-SQLite_testTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 792CJJ472U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.SQLite-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLite_test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SQLite_test";
+			};
+			name = Debug;
+		};
+		CFD0D8912CA10D56008C0064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28182EDA217616D5C55D28A2 /* Pods-SQLite_testTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 792CJJ472U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.SQLite-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLite_test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SQLite_test";
+			};
+			name = Release;
+		};
+		CFD0D8932CA10D56008C0064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C42A6C100C43F22B2BA93C7 /* Pods-SQLite_test-SQLite_testUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 792CJJ472U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.SQLite-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SQLite_test;
+			};
+			name = Debug;
+		};
+		CFD0D8942CA10D56008C0064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277C9166B0A06C456FC50949 /* Pods-SQLite_test-SQLite_testUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 792CJJ472U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.SQLite-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SQLite_test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFD0D85D2CA10D53008C0064 /* Build configuration list for PBXProject "SQLite_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD0D88A2CA10D56008C0064 /* Debug */,
+				CFD0D88B2CA10D56008C0064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD0D88C2CA10D56008C0064 /* Build configuration list for PBXNativeTarget "SQLite_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD0D88D2CA10D56008C0064 /* Debug */,
+				CFD0D88E2CA10D56008C0064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD0D88F2CA10D56008C0064 /* Build configuration list for PBXNativeTarget "SQLite_testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD0D8902CA10D56008C0064 /* Debug */,
+				CFD0D8912CA10D56008C0064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD0D8922CA10D56008C0064 /* Build configuration list for PBXNativeTarget "SQLite_testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD0D8932CA10D56008C0064 /* Debug */,
+				CFD0D8942CA10D56008C0064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFD0D85A2CA10D53008C0064 /* Project object */;
+}
